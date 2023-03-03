@@ -1,0 +1,148 @@
+.body {
+  position: relative;
+  z-index: -1;
+  background: #151e34;
+  margin: 3rem 0;
+}
+.section_heading {
+  font-size: 1.2em;
+  color: #037ef3;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding: 0.5rem;
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+}
+.section_sub_heading {
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 1;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 1.5rem 0;
+}
+.container_box {
+  padding: 10px 50px;
+  position: relative;
+  width: 50%;
+}
+
+.text_box {
+  padding: 20px 30px;
+  background: #fff;
+  position: relative;
+  border-radius: 6px;
+  font-size: 15px;
+}
+.left_container {
+  left: 0;
+}
+.right_container {
+  left: 50%;
+}
+.container_box img {
+  color: #e7f304;
+  position: absolute;
+  width: 40px;
+  border-radius: 50%;
+  right: -20px;
+  top: 32px;
+  z-index: 10;
+}
+.right_container img {
+  left: -20px;
+}
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  background: #fff;
+  top: 0;
+  left: 50%;
+  margin-left: -3px;
+  z-index: -1;
+}
+
+.text_box h2 {
+  font-weight: 600;
+}
+.text_box small {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.left_container_arrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 28px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid #fff;
+  right: -15px;
+}
+.right_container_arrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 28px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid #fff;
+  left: -15px;
+}
+.text_box h3 {
+  font-size: small;
+  font-weight: 600;
+  padding: 0.2rem 0;
+}
+.text_box p,
+ul {
+  font-size: 0.7rem;
+  font-family: "Roboto", sans-serif;
+  padding: 0.2rem 0.5rem;
+  list-style: disc;
+}
+@media screen and (max-width: 768px) {
+  .timeline {
+    margin: 10px auto;
+  }
+  .timeline::after {
+    left: 31px;
+  }
+  .container_box {
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 25px;
+  }
+  .text_box {
+    font-size: 13px;
+  }
+  .text_box small {
+    margin-bottom: 10px;
+  }
+  .right_container {
+    left: 0;
+  }
+  .left_container img,
+  .right_container img {
+    left: 10px;
+  }
+  .left_container_arrow,
+  .right_container_arrow {
+    border-right: 15px solid #fff;
+    border-left: 0;
+    left: -15px;
+  }
+}
