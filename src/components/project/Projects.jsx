@@ -8,7 +8,7 @@ const Projects = () => {
     Aos.init();
   });
   return (
-    <>
+    <section id="projects">
       <div className="body">
         <div className="mx-auto flex flex-col pt-12">
           <h1 className="section_heading">Work</h1>
@@ -192,7 +192,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 

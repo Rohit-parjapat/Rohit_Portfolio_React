@@ -8,7 +8,7 @@ const Skills = () => {
     Aos.init();
   });
   return (
-    <>
+    <section id="skills">
       <div className="py-3 px-2 flex flex-col gap-2 justify-center items-center ">
         <div>
           <h1 className="font_family text-5xl uppercase tracking-wider py-2">
@@ -126,7 +126,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 

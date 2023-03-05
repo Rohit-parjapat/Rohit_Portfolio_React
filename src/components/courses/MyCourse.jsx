@@ -8,7 +8,7 @@ const Courses = () => {
     Aos.init();
   });
   return (
-    <>
+    <section id="courses">
       <div className="flex flex-col gap-3 justify-center About_bg ">
         <div className="mx-auto py-3 flex flex-col">
           <h1 className="section_heading">My Courses</h1>
@@ -49,7 +49,7 @@ const Courses = () => {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 

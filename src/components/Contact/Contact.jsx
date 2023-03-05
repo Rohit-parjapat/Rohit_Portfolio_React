@@ -36,7 +36,7 @@ const Contact = () => {
     Aos.init();
   });
   return (
-    <>
+    <section id="contact">
       <div className="flex flex-col gap-3 contact_bg py-4">
         <div className="mx-auto  flex flex-col pt-12">
           <h1 className="section_heading">Find Me</h1>
@@ -112,7 +112,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 

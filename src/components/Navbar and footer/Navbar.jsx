@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 import "../../App.css";
 import { RxHamburgerMenu } from "react-icons/rx";
 
@@ -36,10 +36,7 @@ const MobileNav = () => {
     <>
       <div className="flex justify-between md:hidden px-3 py-2 relative">
         <div className="flex justify-center items-center px-2">
-          <Link to="/">
-            {/* <h1 className="font-bold text-gray-700 font-sarif text-center">
-              ROHIT
-            </h1> */}
+          <Link to="/" smooth>
             <img
               src="/images/rlogo.jpg"
               className="font-bold text-gray-700 font-sarif text-center w-8 h-7"
@@ -64,30 +61,42 @@ const MobileNav = () => {
         >
           <Link
             to="/"
+            smooth
             className="hover:font-bold transition ease-in delay-100 duration-100"
           >
             <span>Home</span>
           </Link>
           <Link
-            to="/about"
+            to="#about"
+            smooth
             className="hover:font-bold transition ease-in delay-100 duration-100"
           >
             <span>About</span>
           </Link>
           <Link
-            to="/skills"
+            to="#skills"
+            smooth
             className="hover:font-bold transition ease-in delay-100 duration-100"
           >
             <span>Skills</span>
           </Link>
           <Link
-            to="/projects"
+            to="#courses"
+            smooth
+            className="hover:font-bold transition ease-in delay-100 duration-100"
+          >
+            <span>Courses</span>
+          </Link>
+          <Link
+            to="#projects"
+            smooth
             className="hover:font-bold transition ease-in delay-100 duration-100"
           >
             <span>Projects</span>
           </Link>
           <Link
-            to="/contact"
+            to="#contact"
+            smooth
             className="hover:font-bold transition ease-in delay-100 duration-100 "
           >
             <span>Contact</span>
@@ -103,7 +112,7 @@ const LargeNavbar = () => {
     <>
       <div className="flex inline-block justify-between lg:py-5 md:py-3 hidden md:flex">
         <div className="lg:px-12 md:px-5 px-3">
-          <Link to="#">
+          <Link to="/" smooth>
             {/* <h1 className="font-bold text-gray-700 font-sarif text-center lg:text-2xl md:text-xl">
               ROHIT
             </h1> */}
@@ -116,31 +125,43 @@ const LargeNavbar = () => {
         </div>
         <div className="flex inline-block justify-center items-center lg:gap-6 md:gap-4 text-sm font-mono ">
           <Link
-            to="#"
+            to="/"
+            smooth
             className="text-center lg:text-sm md:text-xs lg:px-3 md:px-1 hover:font-bold transition ease-in delay-100 hover:-translate-y-0.5 duration-100"
           >
             <span>Home</span>
           </Link>
           <Link
             to="#about"
+            smooth
             className="text-center lg:text-sm md:text-xs lg:px-3 md:px-1 hover:font-bold transition ease-in delay-100 hover:-translate-y-0.5 duration-100"
           >
             <span>About</span>
           </Link>
           <Link
             to="#skills"
+            smooth
             className="text-center lg:text-sm md:text-xs lg:px-3 md:px-1 hover:font-bold transition ease-in delay-100 hover:-translate-y-0.5 duration-100"
           >
             <span>Skills</span>
           </Link>
           <Link
+            to="#courses"
+            smooth
+            className="text-center lg:text-sm md:text-xs lg:px-3 md:px-1 hover:font-bold transition ease-in delay-100 hover:-translate-y-0.5 duration-100"
+          >
+            <span>Courses</span>
+          </Link>
+          <Link
             to="#projects"
+            smooth
             className="text-center lg:text-sm md:text-xs lg:px-3 md:px-1 hover:font-bold transition ease-in delay-100 hover:-translate-y-0.5 duration-100"
           >
             <span>Projects</span>
           </Link>
           <Link
             to="#contact"
+            smooth
             className="text-center lg:text-sm md:text-xs lg:px-3 md:px-1 hover:font-bold transition ease-in delay-100 hover:-translate-y-0.5 duration-100"
           >
             <span>Contact</span>

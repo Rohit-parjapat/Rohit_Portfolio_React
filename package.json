@@ -13,7 +13,9 @@
     "react-icon": "^1.0.0",
     "react-icons": "^4.7.1",
     "react-router-dom": "^6.8.0",
+    "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
+    "styled-components": "^5.3.8",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

@@ -7,7 +7,7 @@ import Navbar from "../components/Navbar and footer/Navbar";
 import Courses from "../components/courses/MyCourse";
 import Footer from "../components/Navbar and footer/footer";
 import Projects from "../components/project/Projects";
-
+import GoToTop from "../components/GoToTop";
 const HomePage = () => {
   return (
     <>
@@ -30,6 +30,7 @@ const HomePage = () => {
       <div className="mt-3">
         <Contact />
       </div>
+      <GoToTop />
       <div>
         <Footer />
       </div>
