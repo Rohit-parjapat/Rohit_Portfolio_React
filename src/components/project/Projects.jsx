@@ -112,27 +112,21 @@ const Projects = () => {
               <small>2022 - 2023</small>
               <div>
                 <h3>Tech Stack:</h3>
-                <p>
-                  ReactJs | Redux | FontAwesome | NodeJs | ExpressJs | Mongoose
-                  | MongoDb | Tailwind CSS | Postman | AWS(EC2)
-                </p>
+                <p>HTML | CSS | JavaScript</p>
               </div>
               <div>
                 <h3>Features:</h3>
                 <p>
-                  Fixed Navbar | Log-In | Sign-up | Cart | Menus preview |
-                  Checkout & Payment | Media Query for All
+                  Fixed Navbar | Task adding functionality | Task preview | Task
+                  editing | Use of Browser Local storage | Media Query for All
                 </p>
               </div>
               <div>
                 <h3>Aria of Responsibility:</h3>
                 <ul>
-                  <li>Applied JWT-based User Authentication</li>
-                  <li>Build complete Cart functionality.</li>
-                  <li>
-                    A collaborative project Developed with a mentor within 20
-                    days.
-                  </li>
+                  <li>Efficient Use of Browser Local storage </li>
+                  <li>Build complete tast handle functionality.</li>
+                  <li>A collaborative project Developed with a mentor.</li>
                 </ul>
               </div>
               <span className="right_container_arrow"></span>
@@ -145,26 +139,22 @@ const Projects = () => {
               <small>2022 - 2023</small>
               <div>
                 <h3>Tech Stack:</h3>
-                <p>
-                  ReactJs | Redux | FontAwesome | NodeJs | ExpressJs | Mongoose
-                  | MongoDb | Tailwind CSS | Postman | AWS(EC2)
-                </p>
+                <p>HTML | CSS | JavaScript | Bootstrap</p>
               </div>
               <div>
                 <h3>Features:</h3>
                 <p>
-                  Fixed Navbar | Log-In | Sign-up | Cart | Menus preview |
-                  Checkout & Payment | Media Query for All
+                  Fixed Navbar | Hoverable bars | Used carousals | Media Query
+                  for All
                 </p>
               </div>
               <div>
                 <h3>Aria of Responsibility:</h3>
                 <ul>
-                  <li>Applied JWT-based User Authentication</li>
-                  <li>Build complete Cart functionality.</li>
+                  <li>Build complete Home page.</li>
                   <li>
-                    A collaborative project Developed with a mentor within 20
-                    days.
+                    A collaborative project Developed with a mentor within a
+                    week.
                   </li>
                 </ul>
               </div>
@@ -178,26 +168,22 @@ const Projects = () => {
               <small>2022 - 2023</small>
               <div>
                 <h3>Tech Stack:</h3>
-                <p>
-                  ReactJs | Redux | FontAwesome | NodeJs | ExpressJs | Mongoose
-                  | MongoDb | Tailwind CSS | Postman | AWS(EC2)
-                </p>
+                <p>HTML | CSS | JavaScript | Bootstrap</p>
               </div>
               <div>
                 <h3>Features:</h3>
                 <p>
-                  Fixed Navbar | Log-In | Sign-up | Cart | Menus preview |
-                  Checkout & Payment | Media Query for All
+                  Fixed Navbar | Hoverable bars | Used carousals | Media Query
+                  for All
                 </p>
               </div>
               <div>
                 <h3>Aria of Responsibility:</h3>
                 <ul>
-                  <li>Applied JWT-based User Authentication</li>
-                  <li>Build complete Cart functionality.</li>
+                  <li>Build complete Home page.</li>
                   <li>
-                    A collaborative project Developed with a mentor within 20
-                    days.
+                    A collaborative project Developed with a mentor within a
+                    week.
                   </li>
                 </ul>
               </div>

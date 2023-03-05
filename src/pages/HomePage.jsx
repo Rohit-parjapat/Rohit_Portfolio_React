@@ -4,7 +4,7 @@ import Contact from "../components/Contact/Contact";
 import HeroSectionInfo from "../components/heroComponents/HeroSectionInfo";
 import HeroSectionPoster from "../components/heroComponents/HeroSectionPoster";
 import Navbar from "../components/Navbar and footer/Navbar";
-import Services from "../components/Services/MyServices";
+import Courses from "../components/courses/MyCourse";
 import Footer from "../components/Navbar and footer/footer";
 import Projects from "../components/project/Projects";
 
@@ -22,7 +22,7 @@ const HomePage = () => {
         <AboutSection />
       </div>
       <div className="mt-3">
-        <Services />
+        <Courses />
       </div>
       <div>
         <Projects />
