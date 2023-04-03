@@ -101,7 +101,7 @@ const Contact = () => {
               <MdEmail />
             </span>
             <h1 className="contact_data">Email</h1>
-            <span className="contact_data">thetechsources@gmail.com</span>
+            <span className="contact_data">itsmerohit7377@gmail.com</span>
           </div>
           <div className="contact_box md:w-1/3 py-2" data-aos="fade-up">
             <span className="text-yellow-500 text-3xl">
