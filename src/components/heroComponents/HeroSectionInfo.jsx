@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 // import { Link } from "react-router-dom";
-import Rohit_CV from "../../assests/CV/Rohit_Professional_CV";
+import Rohit_CV from "../../assests/CV/Rohit_Professional_CV.pdf";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
