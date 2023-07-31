@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 // import { Link } from "react-router-dom";
-import Rohit_CV from "../../assests/CV/Rohit_CV.pdf";
+import Rohit_CV from "../../assests/CV/Rohit_Professional_CV";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -16,8 +16,8 @@ const HeroSectionInfo = () => {
           I'am <span className="text-red-600 tracking-wide">Rohit</span>
         </span>
         <p className="text-sm text-gray-400 leading-tight">
-          Bachelor of Computer Application student at Gurugram University and a
-          Full stack web developer.
+          Graduated in BCA from Gurugram University and a Full stack web
+          developer.
         </p>
         <a
           href={Rohit_CV}
