@@ -11,26 +11,27 @@ const MyInfo = () => {
     <>
       <div className="">
         <div className="container flex flex-col gap-2 justify-center items-center py-5 font_family">
+          <span className="lg:text-4xl text-2xl font-bold uppercase tracking-widest p-1">
+            Welcome to my Portfolio
+          </span>
           <h4 className="lg:text-md text-sm text-blue-600 leading-3 tracking-widest font-medium p-1">
             ABOUT ME
           </h4>
-          <span className="lg:text-4xl text-2xl font-bold uppercase tracking-widest p-1">
-            Welcome to my website
-          </span>
         </div>
         <div className="px-4 flex  w-full" data-aos="fade-up">
           <p className="lg:leading-8 leading-6 lg:text-lg text-md font-family font-normal tracking-wider text-justify my-2 px-5 rounded-md">
-            Graduated in Bachelor of Computer Application stream. I have
-            completed my Full Stack Web development Internship from Devtown. I
-            am a NCC (National cadet corps) cadet on Under Officer rank. I am
-            hardworking and I would like to acquire new skills and always
-            passionate to learn new technologies. I can work with HTML5, CSS 3,
-            JavaScript, PHP, MySQL, NodeJS, ReactJS and have knowledge of
-            MongoDB. My current goal is to become a Full Stack Web Developer and
-            I'm working on it. Two Pillars for my learning path are bugs and
-            problem-solving skills. For me, the advancement of technology not
-            only seeks my attention but gives me an abundant amount of knowledge
-            to explore other fields also. I am always ready to give my 100%.
+            I am currently pursuing a Master of Business Administration (MBA)
+            with a specialization in Information Technology from Maharshi
+            Dayanand University. I hold a Bachelor’s degree in Computer
+            Applications from Gurugram University and have also completed a Full
+            Stack Web Development course in the MERN stack, with additional
+            knowledge in DevOps. With hands-on experience in creating dynamic
+            and responsive websites, I possess a strong understanding of
+            front-end and back-end development. My expertise spans technologies
+            like MongoDB, Express.js, React.js, and Node.js, allowing me to
+            build efficient, scalable web applications. I am always eager to
+            learn and explore the latest technologies, continually enhancing my
+            skills to stay ahead in the ever-evolving tech landscape.
           </p>
         </div>
       </div>

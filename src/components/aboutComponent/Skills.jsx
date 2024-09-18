@@ -107,7 +107,19 @@ const Skills = () => {
             </div>
           </div>
           <div className="skill_box" data-aos="fade-up">
-            <span className="skill_title">GITHUB/GITLAB</span>
+            <span className="skill_title">GIT/GITHUB/GITLAB</span>
+            <div className="html_progress_bar ">
+              <span className="GITHUB_progress "></span>
+            </div>
+          </div>
+          <div className="skill_box" data-aos="fade-up">
+            <span className="skill_title">TypeScript</span>
+            <div className="html_progress_bar ">
+              <span className="GITHUB_progress "></span>
+            </div>
+          </div>
+          <div className="skill_box" data-aos="fade-up">
+            <span className="skill_title">GraphQl</span>
             <div className="html_progress_bar ">
               <span className="GITHUB_progress "></span>
             </div>

@@ -18,6 +18,30 @@ const Projects = () => {
           <div className="container_box left_container" data-aos="fade-up">
             <img src="/images/rlogo.jpg" alt="logo" />
             <div className="text_box">
+              <h2>BimaBook Lite </h2>
+              <small>5 jun, 2024 - 30 jun, 2024</small>
+              <div>
+                <h3>Tech Stack:</h3>
+                <p>
+                  ReactJs | Redux | FontAwesome | NodeJs | ExpressJs | Mongoose
+                  | MongoDb | Bootstrap CSS | Postman
+                </p>
+              </div>
+              <div>
+                <h3>Aria of Responsibility:</h3>
+                <ul>
+                  <li>
+                    Developed user-friendly interfaces for policy management.
+                  </li>
+                  <li>Integrated API for real-time data updates</li>
+                </ul>
+              </div>
+              <span className="left_container_arrow"></span>
+            </div>
+          </div>
+          <div className="container_box right_container" data-aos="fade-up">
+            <img src="/images/rlogo.jpg" alt="logo" />
+            <div className="text_box">
               <h2>Zomato Clone </h2>
               <small>2022 - 2023</small>
               <div>
@@ -45,10 +69,10 @@ const Projects = () => {
                   </li>
                 </ul>
               </div>
-              <span className="left_container_arrow"></span>
+              <span className="right_container_arrow"></span>
             </div>
           </div>
-          <div className="container_box right_container" data-aos="fade-up">
+          <div className="container_box left_container" data-aos="fade-up">
             <img src="/images/rlogo.jpg" alt="logo" />
             <div className="text_box">
               <h2>BookMyShow Clone</h2>
@@ -76,10 +100,10 @@ const Projects = () => {
                   </li>
                 </ul>
               </div>
-              <span className="right_container_arrow"></span>
+              <span className="left_container_arrow"></span>
             </div>
           </div>
-          <div className="container_box left_container" data-aos="fade-up">
+          <div className="container_box right_container" data-aos="fade-up">
             <img src="/images/rlogo.jpg" alt="logo" />
             <div className="text_box">
               <h2>Book Management server</h2>
@@ -102,10 +126,10 @@ const Projects = () => {
                   </li>
                 </ul>
               </div>
-              <span className="left_container_arrow"></span>
+              <span className="right_container_arrow"></span>
             </div>
           </div>
-          <div className="container_box right_container" data-aos="fade-up">
+          <div className="container_box left_container" data-aos="fade-up">
             <img src="/images/rlogo.jpg" alt="logo" />
             <div className="text_box">
               <h2>Task Management</h2>
@@ -129,10 +153,10 @@ const Projects = () => {
                   <li>A collaborative project Developed with a mentor.</li>
                 </ul>
               </div>
-              <span className="right_container_arrow"></span>
+              <span className="left_container_arrow"></span>
             </div>
           </div>
-          <div className="container_box left_container" data-aos="fade-up">
+          <div className="container_box right_container" data-aos="fade-up">
             <img src="/images/rlogo.jpg" alt="logo" />
             <div className="text_box">
               <h2>Disney Hotstar clone</h2>
@@ -158,10 +182,10 @@ const Projects = () => {
                   </li>
                 </ul>
               </div>
-              <span className="left_container_arrow"></span>
+              <span className="right_container_arrow"></span>
             </div>
           </div>
-          <div className="container_box right_container" data-aos="fade-up">
+          <div className="container_box left_container" data-aos="fade-up">
             <img src="/images/rlogo.jpg" alt="logo" />
             <div className="text_box">
               <h2>Zomato-Landing-page clone</h2>
@@ -187,7 +211,7 @@ const Projects = () => {
                   </li>
                 </ul>
               </div>
-              <span className="right_container_arrow"></span>
+              <span className="left_container_arrow"></span>
             </div>
           </div>
         </div>
