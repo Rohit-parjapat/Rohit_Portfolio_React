@@ -20,18 +20,11 @@ const MyInfo = () => {
         </div>
         <div className="px-4 flex  w-full" data-aos="fade-up">
           <p className="lg:leading-8 leading-6 lg:text-lg text-md font-family font-normal tracking-wider text-justify my-2 px-5 rounded-md">
-            I am currently pursuing a Master of Business Administration (MBA)
-            with a specialization in Information Technology from Maharshi
-            Dayanand University. I hold a Bachelor’s degree in Computer
-            Applications from Gurugram University and have also completed a Full
-            Stack Web Development course in the MERN stack, with additional
-            knowledge in DevOps. With hands-on experience in creating dynamic
-            and responsive websites, I possess a strong understanding of
-            front-end and back-end development. My expertise spans technologies
-            like MongoDB, Express.js, React.js, and Node.js, allowing me to
-            build efficient, scalable web applications. I am always eager to
-            learn and explore the latest technologies, continually enhancing my
-            skills to stay ahead in the ever-evolving tech landscape.
+            Backend Developer with 1+ years of experience in building scalable web applications using Node.js,
+            Express.js, and MongoDB. Skilled in designing RESTful APIs, implementing secure authentication, and
+            integrating third-party services. Proven track record of improving performance (reduced issues by 75%) and
+            enhancing user engagement (boosted retention by 50%). Experienced with Git, Docker, and cloud deployment.
+            Actively seeking a backend-focused SDE role to architect and deliver reliable, high-performance systems.
           </p>
         </div>
       </div>
